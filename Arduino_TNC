@@ -1,0 +1,6 @@
+Qty,partname,description,lib
+0,"ARDUINO_NANO","Arduino Nano","arduino"
+0,"C","Unpolarized capacitor","device"
+0,"JACK_TRS","","5pin-audio"
+0,"PN2222A","40V Vce, 1A Ic, NPN, General Purpose Transistor, TO-92","transistors"
+0,"R","Resistor","device"

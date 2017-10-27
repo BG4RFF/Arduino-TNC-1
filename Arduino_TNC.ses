@@ -1,0 +1,244 @@
+
+(session Arduino_TNC.ses
+  (base_design Arduino_TNC.dsn)
+  (placement
+    (resolution um 10)
+    (component Modules:Arduino_Nano_WithMountingHoles
+      (place ARDUINO1 1574800 -1016000 front 0)
+    )
+    (component Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm
+      (place C1 1447800 -1244600 front 180)
+      (place C2 1892300 -1295400 front 90)
+    )
+    (component "Arduino_TNC:Tayda_3.5mm_stereo_TRS_jack_A-853"
+      (place J1 1320800 -1282700 front 90)
+      (place J2 1981200 -1282700 front 270)
+    )
+    (component "TO_SOT_Packages_THT:TO-92_Molded_Wide"
+      (place Q1 1435100 -1282700 front 270)
+    )
+    (component Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+      (place R1 1511300 -1079500 front 270)
+      (place R2 1511300 -1270000 front 90)
+      (place R3 1511300 -1384300 front 90)
+      (place R4 1790700 -1244600 front 270)
+      (place R5 1841500 -1320800 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 4.0.6)
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:400_um"
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(ARDUINO1-Pad19)"
+        (wire
+          (path B.Cu 2500
+            1841500 -1320800
+            1866900 -1320800
+            1892300 -1295400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1790700 -1320800
+            1841500 -1320800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1790700 -1320800
+            1779447 -1320800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1779447 -1320800
+            1754047 -1295400
+            1738453 -1295400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1727200 -1295400
+            1738453 -1295400
+          )
+        )
+      )
+      (net "Net-(ARDUINO1-Pad9)"
+        (wire
+          (path B.Cu 2500
+            1574800 -1219200
+            1563547 -1219200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1511300 -1270000
+            1512747 -1270000
+            1563547 -1219200
+          )
+        )
+      )
+      (net "Net-(ARDUINO1-Pad27)"
+        (wire
+          (path B.Cu 2500
+            1727200 -1092200
+            1727200 -1103453
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1790700 -1244600
+            1790700 -1164140
+            1730013 -1103453
+            1727200 -1103453
+          )
+        )
+      )
+      (net "Net-(ARDUINO1-Pad13)"
+        (wire
+          (path B.Cu 2500
+            1574800 -1320800
+            1563547 -1320800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1511300 -1384300
+            1563547 -1332053
+            1563547 -1320800
+          )
+        )
+      )
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1511300 -1193800
+            1500047 -1193800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1500047 -1193800
+            1449247 -1244600
+            1447800 -1244600
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1511300 -1155700
+            1511300 -1193800
+          )
+        )
+      )
+      (net "Net-(C1-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1354900 -1332700
+            1355752 -1332700
+            1422800 -1265652
+            1422800 -1244600
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1354900 -1232700
+            1410900 -1232700
+            1422800 -1244600
+          )
+        )
+      )
+      (net "Net-(C2-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1947100 -1332700
+            1945780 -1332700
+            1892300 -1279220
+            1892300 -1270400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1947100 -1232700
+            1926347 -1232700
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1926347 -1232700
+            1926347 -1236353
+            1892300 -1270400
+          )
+        )
+      )
+      (net "Net-(J1-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1435100 -1333500
+            1423385 -1345215
+            1341206 -1345215
+            1304840 -1308849
+            1304840 -1282700
+          )
+        )
+      )
+      (net "Net-(Q1-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1511300 -1308100
+            1460500 -1308100
+          )
+        )
+      )
+      (net "Net-(ARDUINO1-Pad4)"
+        (wire
+          (path B.Cu 2500
+            1511300 -1092200
+            1511300 -1079500
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1435100 -1282700
+            1435100 -1168400
+            1511300 -1092200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1511300 -1092200
+            1563547 -1092200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1574800 -1092200
+            1563547 -1092200
+          )
+        )
+      )
+      (net "Net-(ARDUINO1-Pad29)"
+        (wire
+          (path B.Cu 2500
+            1997160 -1282700
+            1997160 -1257033
+            1781527 -1041400
+            1727200 -1041400
+          )
+        )
+      )
+    )
+  )
+)
